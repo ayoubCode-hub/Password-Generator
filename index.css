@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 350px;
+    background-color: #309794;
+    border-radius: 15px;
+    box-shadow: 0 0 2 1 rgb(146, 146, 144);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1{
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 2 1 rgb(146, 146, 144);
+    text-align: center;
+    padding: 15px;
+
+}
+.verouillage{
+    padding: 5px;
+    color: #7AB6B7;
+}
+.pass{
+    padding: 4px;
+    color: #7AB6B7;
+    border: solid black 1px;
+    border-radius: 5px;
+    width: 50px;
+}
+.description{
+    margin: 10px;
+    padding: 10px;
+    border: 1px;
+}
+.input {
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 90%;
+    padding: 5px;
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.check{
+    width: 250px;
+    margin: auto;
+    background-color: #E6E1DA;
+    border-radius: 5px;
+}
+

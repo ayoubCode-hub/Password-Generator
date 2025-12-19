@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur des mot de passes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="div1">
+            <i class="fa-solid fa-shield-halved verouillage"></i><br>
+            <i class="fa-solid fa-ellipsis pass"></i><br>
+            <h1 class="title">Générateur des mot de passes</h1><br>
+            <strong class="description">créer un mot de passe sécuriser pour protéger vos comptes</strong><br>
+            <input class="input" type="text" value="" id="password" readonly placeholder="cliquer sur le button reinisalier " />
+            <button id="resetBtn">
+                <i class="fa-solid fa-rotate-right"></i>
+            </button>
+            <button id="copyBtn">
+                <i class="fa-regular fa-copy"></i>
+                <!-- Copier -->
+            </button><br>
+
+            <label>Longeur du mot de passe <span id="lengthValue"></span> :</label><br>
+            <input type="range" id="length" min="4" max="20" value="8"/><br>
+            <div class="check">
+                Majuscule : <input type="checkbox" id="uppercase" /><br>
+                Minuscule : <input type="checkbox" id="lowercase" /><br>
+                Nombres : <input type="checkbox" id="numbers" /><br>
+                Caractères spéciaux : <input type="checkbox" id="symbols" /><br>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
